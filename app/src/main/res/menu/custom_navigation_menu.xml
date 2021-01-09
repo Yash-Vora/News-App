@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/bbc"
+            android:icon="@drawable/bbc"
+            android:title="BBC" />
+
+        <item
+            android:id="@+id/cnn"
+            android:icon="@drawable/cnn"
+            android:title="CNN" />
+
+        <item
+            android:id="@+id/foxNews"
+            android:icon="@drawable/fox"
+            android:title="Fox News" />
+
+        <item
+            android:id="@+id/skyNews"
+            android:icon="@drawable/sky"
+            android:title="Sky News" />
+
+    </group>
+
+    <item android:title="Upcoming">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/r"
+                    android:title="Republic Bharat" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
